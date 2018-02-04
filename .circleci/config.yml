@@ -1,0 +1,37 @@
+version: 2
+jobs:
+  crowdin-refresh:
+    docker:
+      - image: openjdk:latest
+    steps:
+      - checkout
+      - run:
+          name: Download Crowdin
+          command: wget https://artifacts.crowdin.com/repo/deb/crowdin.deb -O crowdin.deb && sudo dpkg -i crowdin.deb
+      - run:
+          name: Send new sources to Crowdin
+          command: crowdin upload sources -b WildBeast
+  repository-update:
+    docker:
+      - image: openjdk:latest
+    steps:
+      - checkout
+      - run:
+          name: Download Crowdin
+          command: wget https://artifacts.crowdin.com/repo/deb/crowdin.deb -O crowdin.deb && sudo dpkg -i crowdin.deb
+      - run:
+          name: Get fresh translations
+          command: crowdin download -b WildBeast
+      - run:
+          name: Setup commiter identity
+          command: git config user.email 9768134+Dougley@users.noreply.github.com
+      - run:
+          name: Commit
+          command: git add . && git commit -m "chore: update language files" && git push origin master
+
+workflows:
+  version: 2
+  chores:
+    jobs:
+      - crowdin-refresh
+      - repository-update
