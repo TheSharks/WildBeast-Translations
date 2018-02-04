@@ -27,7 +27,7 @@ jobs:
           command: git config user.email 9768134+Dougley@users.noreply.github.com
       - run:
           name: Commit
-          command: git add . && git commit -m "chore: update language files" && git push origin master
+          command: "git add . && git commit -m \"chore: update language files\" && git push origin master"
 
 workflows:
   version: 2
