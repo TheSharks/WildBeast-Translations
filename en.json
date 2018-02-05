@@ -3,5 +3,6 @@
   "BOT_OWNER_ONLY": "This command is only for the bot owner.",
   "NO_DM": "This command cannot be used in Direct Messages.",
   "COOLDOWN": "This command is on cooldown for another {time} seconds.",
-  "NO_PERMS": "You have no permission to run this command."
+  "NO_PERMS": "You have no permission to run this command.",
+  "COMMAND_ERROR": "Something went wrong while running this command, if you see my owner, tell them this: ```\n{message}\n```"
 }
