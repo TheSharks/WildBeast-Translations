@@ -15,6 +15,9 @@
   "TAG_NOT_FOUND": "There's no tag called {tag}",
   "TAG_DELETED": "Tag {tag} successfully deleted.",
   "TAG_OWNER": "Tag {tag} belongs to {owner}",
+  "TAG_NOT_OWNED": "You can't do that on a tag you don't own.",
+  "TAG_NAME_CONFLICT": "A tag with that name already exists.",
+  "TAG_NAME_BLACKLISTED": "You cannot call your tag that.",
   "BOORU_SITE_UNKNOWN": "I don't have a configuration for a site called `{site}`.",
   "BOORU_NO_RESULTS": "Nothing found for query `{query}`",
   "BOORU_SUCCESS": "You've searched for `{query}`\n{url}"
