@@ -20,5 +20,8 @@
   "TAG_NAME_BLACKLISTED": "You cannot call your tag that.",
   "BOORU_SITE_UNKNOWN": "I don't have a configuration for a site called `{site}`.",
   "BOORU_NO_RESULTS": "Nothing found for query `{query}`",
-  "BOORU_SUCCESS": "You've searched for `{query}`\n{url}"
+  "BOORU_SUCCESS": "You've searched for `{query}`\n{url}",
+  "PERMISSIONS_OVERFLOW": "Access levels higher than 10 cannot be set.",
+  "PERMISSIONS_UPDATED": "Permissions successfully updated.",
+  "API_ERROR": "The API returned a malformed response."
 }
