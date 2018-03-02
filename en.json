@@ -1,6 +1,6 @@
 {
   "LANGUAGE_DISCLAIMER": "Please note: translations are provided by the community, we cannot guarantee their correctness, completeness, or quality.",
-  "NSFW_NOT_MARKED": "Please mark the channel as NSFW in order to use this command.",
+  "NSFW_NOT_ENABLED": "Please mark the channel as NSFW in order to use this command.",
   "BOT_OWNER_ONLY": "This command is only for the bot owner.",
   "NO_DM": "This command cannot be used in Direct Messages.",
   "COOLDOWN": "This command is on cooldown for another {time} seconds.",
@@ -11,6 +11,7 @@
   "SETTINGS_SINGLE_REPLY": "`{setting}` is currently set to `{value}`",
   "SETTINGS_NO_DATA": "There's no data for this server.",
   "SETTINGS_MODIFIED": "`{setting}` has been adjusted to `{value}`.\n{disclaim}",
+  "SETTINGS_WELCOMING_MALFORMED": "`welcome` can only be a channel or `dm`.",
   "TAG_CREATED": "Tag with name {tag} successfully created.",
   "TAG_NOT_FOUND": "There's no tag called {tag}",
   "TAG_DELETED": "Tag {tag} successfully deleted.",
@@ -23,5 +24,6 @@
   "BOORU_SUCCESS": "You've searched for `{query}`\n{url}",
   "PERMISSIONS_OVERFLOW": "Access levels higher than 10 cannot be set.",
   "PERMISSIONS_UPDATED": "Permissions successfully updated.",
-  "API_ERROR": "The API returned a malformed response."
+  "API_ERROR": "The API returned a malformed response.",
+  "WELCOME_MESSAGE": "Please welcome {user_name} to {guild_name}!"
 }
