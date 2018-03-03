@@ -4,7 +4,7 @@
 
 files: [
  {
-  "source" : "/en.json",
+  "source" : "/source.json",
   "translation" : "/%three_letters_code%.json",
  }
 ]
