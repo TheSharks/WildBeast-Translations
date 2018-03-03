@@ -1,6 +1,6 @@
 version: 2
 jobs:
-  crowdin-upload:
+  build:
     docker:
       - image: dougley/crowdin:latest
     steps:
@@ -12,4 +12,4 @@ workflows:
   version: 2
   crowdin:
     jobs:
-      - crowdin-upload
+      - build
