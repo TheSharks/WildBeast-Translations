@@ -1,0 +1,15 @@
+version: 2
+jobs:
+  crowdin-upload:
+    docker:
+      - image: dougley/crowdin:latest
+    steps:
+      - checkout
+      - run:
+          name: Crowdin upload
+          command: crowdin upload sources
+workflows:
+  version: 2
+  crowdin:
+    jobs:
+      - crowdin-upload
