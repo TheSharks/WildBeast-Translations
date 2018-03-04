@@ -26,15 +26,15 @@
   "PERMISSIONS_UPDATED": "Permissions successfully updated.",
   "API_ERROR": "The API returned a malformed response.",
   "WELCOME_MESSAGE": "Please welcome {user_name} to {guild_name}!",
-  "NO_SEARCH_SUFFIX": "{author}, enter what you'd like to search for.",
-  "SEARCH_NO_TRACKS": "{author}, I could not find any tracks with those keywords.",
-  "LINK_NO_TRACK": "{author}, I could not add {url} to the queue.",
   "NO_VOICE_CHANNELS": "Sorry bucko, there's no voice channels for me to join.",
   "JOIN_VOICE_CHANNEL": "You must be connected to a voice channel before using this command.",
   "VOICE_NOT_CONNECTED": "I am not connected to any voice channels in this guild.",
   "VOICE_DISCONNECT": "Leaving voice channel **{channel}**.",
   "VOICE_CONNECTED": "I am already connected to the **{channel}** voice channel.",
-  "NEXT_TRACK": "Track **{current}** has ended, now playing **{next}** _[{duration}]_ by request of {user}.",
+  "NO_SEARCH_SUFFIX": "{user}, enter what you'd like to search for.",
+  "SEARCH_NO_TRACKS": "{user}, I could not find any tracks with those keywords.",
+  "LINK_NO_TRACK": "{user}, I could not add {url} to the queue.",
   "TRACK_ADDED": "The track **{title}** _[{duration}]_ has been added to the queue by request of {user}.",
-  "TRACKS_ADDED": "Added **{count}** tracks to the queue by request of {user}."
+  "TRACKS_ADDED": "Added **{count}** tracks to the queue by request of {user}.",
+  "NEXT_TRACK": "Track **{current}** has ended, now playing **{next}** _[{duration}]_ by request of {user}."
 }
