@@ -36,7 +36,14 @@
   "NO_SEARCH_SUFFIX": "{user}, enter what you'd like to search for.",
   "SEARCH_NO_TRACKS": "{user}, I could not find any tracks with those keywords.",
   "LINK_NO_TRACK": "{user}, I could not add {url} to the queue.",
+  "YOUTUBE_PLAYLIST_MALFORMED_LINK": "Try that again with either a link to the video or the playlist. \n**Video:** <{video}> \n**Playlist:** <https://www.youtube.com/playlist?list={playlist}>",
   "TRACK_ADDED": "The track **{title}** _[{duration}]_ has been added to the queue by request of {user}.",
   "TRACKS_ADDED": "Added **{count}** tracks to the queue by request of {user}.",
-  "NEXT_TRACK": "Track **{current}** has ended, now playing **{next}** _[{duration}]_ by request of {user}."
+  "NEXT_TRACK": "Track **{current}** has ended, now playing **{next}** _[{duration}]_ by request of {user}.",
+  "SKIP_TRACK": "Track **{current}** has been skipped, now playing **{next}** _[{duration}]_ by request of {user}.",
+  "VOICE_PERSIST": "There are no more tracks to play, add more using request.",
+  "QUEUE_END": "There are no more tracks in the queue to play, leaving voice.",
+  "VOLUME_NO_SUFFIX": "The volume is currently set to **{volume}**, if you'd like to change the volume use this command again with a number from 0 to 100.",
+  "VOLUME_SUFFIX_MALFORMED": "Only a number from 0 to 100 is allowed for this command.",
+  "VOLUME_ADJUSTED": "The volume has been adjusted to **{volume}**"
 }
