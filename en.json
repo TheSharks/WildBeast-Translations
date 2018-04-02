@@ -45,5 +45,6 @@
   "QUEUE_END": "There are no more tracks in the queue to play, leaving voice.",
   "VOLUME_NO_SUFFIX": "The volume is currently set to **{volume}**, if you'd like to change the volume use this command again with a number from 0 to 100.",
   "VOLUME_SUFFIX_MALFORMED": "Only a number from 0 to 100 is allowed for this command.",
-  "VOLUME_ADJUSTED": "The volume has been adjusted to **{volume}**"
+  "VOLUME_ADJUSTED": "The volume has been adjusted to **{volume}**",
+  "CMD_DISABLED_CHANNEL": "This command cannot be used in this channel."
 }
