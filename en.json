@@ -28,8 +28,10 @@
   "PERMISSIONS_UPDATED": "Permissions successfully updated.",
   "API_ERROR": "The API returned a malformed response.",
   "WELCOME_MESSAGE": "Please welcome {user_name} to {guild_name}!",
+  "CMD_DISABLED_CHANNEL": "This command cannot be used in this channel.",
   "NO_VOICE_CHANNELS": "Sorry bucko, there's no voice channels for me to join.",
   "JOIN_VOICE_CHANNEL": "You must be connected to a voice channel before using this command.",
+  "NO_VOICE_CONNECT_PERM": "I do not have connect or speak permission for voice channel {channel}",
   "VOICE_NOT_CONNECTED": "I am not connected to any voice channels in this guild.",
   "VOICE_DISCONNECT": "Leaving voice channel **{channel}**.",
   "VOICE_CONNECTED": "I am already connected to the **{channel}** voice channel.",
@@ -41,10 +43,15 @@
   "TRACKS_ADDED": "Added **{count}** tracks to the queue by request of {user}.",
   "NEXT_TRACK": "Track **{current}** has ended, now playing **{next}** _[{duration}]_ by request of {user}.",
   "SKIP_TRACK": "Track **{current}** has been skipped, now playing **{next}** _[{duration}]_ by request of {user}.",
+  "MUSIC_PAUSE": "Music is now paused.",
+  "MUSIC_PAUSED": "Music is already paused, did you mean `resume`?",
+  "MUSIC_RESUME": "Music has been resumed.",
+  "MUSIC_PLAYING": "Music is already playing, did you mean `pause`?",
   "VOICE_PERSIST": "There are no more tracks to play, add more using request.",
   "QUEUE_END": "There are no more tracks in the queue to play, leaving voice.",
+  "QUEUE_EMPTY": "There are no tracks in the queue.",
+  "NOW_PLAYING": "The current track is **{current}** _[{duration}]_\n**URL**: <{url}>\n{state}{progress}",
   "VOLUME_NO_SUFFIX": "The volume is currently set to **{volume}**, if you'd like to change the volume use this command again with a number from 0 to 100.",
   "VOLUME_SUFFIX_MALFORMED": "Only a number from 0 to 100 is allowed for this command.",
-  "VOLUME_ADJUSTED": "The volume has been adjusted to **{volume}**",
-  "CMD_DISABLED_CHANNEL": "This command cannot be used in this channel."
+  "VOLUME_ADJUSTED": "The volume has been adjusted to **{volume}**"
 }
