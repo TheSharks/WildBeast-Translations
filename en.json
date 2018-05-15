@@ -20,6 +20,7 @@
   "TAG_OWNER": "Tag {tag} belongs to {owner}",
   "TAG_NOT_OWNED": "You can't do that on a tag you don't own.",
   "TAG_NAME_CONFLICT": "A tag with that name already exists.",
+  "TAG_EDITED": "Tag successfully edited",
   "TAG_TOO_SHORT": "Your tag is too short or doesn't have any content.",
   "TAG_NAME_BLACKLISTED": "You cannot call your tag that.",
   "BOORU_SITE_UNKNOWN": "I don't have a configuration for a site called `{site}`.",
