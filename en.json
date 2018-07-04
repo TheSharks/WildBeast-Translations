@@ -60,5 +60,7 @@
   "NOW_PLAYING": "The current track is **{current}** _[{duration}]_\n**URL**: <{url}>\n{state}{progress}",
   "VOLUME_NO_SUFFIX": "The volume is currently set to **{volume}**, if you'd like to change the volume use this command again with a number from 0 to 100.",
   "VOLUME_SUFFIX_MALFORMED": "Only a number from 0 to 100 is allowed for this command.",
-  "VOLUME_ADJUSTED": "The volume has been adjusted to **{volume}**"
+  "VOLUME_ADJUSTED": "The volume has been adjusted to **{volume}**",
+  "INVITE_BOT_PRIVATE": "This bot is set to private, please ask `{owner}` if you'd like to invite this bot.",
+  "INVITE_GENERATED_RESULT": "Please use {invite} to invite this bot."
 }
