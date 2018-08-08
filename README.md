@@ -7,5 +7,4 @@
 
 ---
 
-This repository holds the language files for [WildBeast](https://github.com/TheSharks/WildBeast).   
-Want to contribute? Please check our [Crowdin project](https://crowdin.com/project/wildbeast).
+## This repository is obsolete, the functionality of this repository has been merged directly into WildBeast
